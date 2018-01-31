@@ -8,7 +8,7 @@ Resource  ../Resources/API/Github.robot
 # pybot -d results/api tests
 
 *** Variables ***
-
+# add global variables here
 
 *** Test Cases ***
 Make a simple REST API call

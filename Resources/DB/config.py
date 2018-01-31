@@ -1,4 +1,4 @@
-"""Variable file containing configuration parameters"""
+"""Variable file containing configuration parameters  """
 def get_variables(arg):
     """
     :param arg: which set of variables to return

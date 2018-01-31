@@ -22,7 +22,7 @@ def update_saucelabs_test_name(name, remote_url=''):
     payload = {'name': name}
     headers = {'Authorization': 'Basic {0}'.format(token)}
 
-    # Put the test status to Sauce Labs
+    # Put the test status to Sauce  Labs
     url = 'https://saucelabs.com/rest/v1/{0}/jobs/{1}'.format(username, job_id)
     response = requests.put(url, data=json.dumps(payload), headers=headers)
     assert response.status_code == 200, response.text

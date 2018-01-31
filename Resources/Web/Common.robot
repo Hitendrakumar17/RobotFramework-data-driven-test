@@ -12,7 +12,7 @@ Begin Web Test
     log many    "Capabilities to use:"  ${BROWSER}  ${DESIRED_CAPABILITIES}
     run keyword if  '${REMOTE_URL}' != ""  Open Browser  about:blank  ${BROWSER}  remote_url=${REMOTE_URL}  desired_capabilities=${DESIRED_CAPABILITIES}
     ...  ELSE  Open Browser  about:blank  ${BROWSER}
-    # Maximize Browser Window - needs to be non-mobile specific
+    #  Maximize Browser Window - needs to be non-mobile specific
 
 End Web Test
     [Documentation]  This line updates the test case name, result and tags in the SauceLabs UI

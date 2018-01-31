@@ -24,7 +24,7 @@ Save Current Row Count
 Get Input Data
     # from the dialogs library
     ${name} =  Get Value From User  Enter a First Name
-    # save it at the suite scope so subsequent test can use it
+    #  save it at the suite scope so subsequent test can use it
     Set Suite Variable  ${FIRST_NAME}  ${name}
 
 Insert Record

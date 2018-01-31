@@ -1,4 +1,4 @@
-"""Functions which utilise the excel library"""
+"""Functions which utilise the excel library   """
 from openpyxl import load_workbook
 
 logins = {}

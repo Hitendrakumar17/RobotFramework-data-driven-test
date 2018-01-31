@@ -27,7 +27,7 @@ Get Input Data
     # save it at the suite scope so subsequent test can use it
     Set Suite Variable  ${FIRST_NAME}  ${firstname}
     Set Suite Variable  ${SURNAME}  ${surname}
-   # Set Suite Variable  ${DOB}  ${dob}
+   # Set  Suite Variable  ${DOB}  ${dob}
 
 Recreate Base Test Data
     execute sql string  DROP TABLE personal_details

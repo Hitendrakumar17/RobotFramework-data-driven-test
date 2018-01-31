@@ -24,3 +24,4 @@ Add Product to Cart
 Begin Checkout
     Cart.Proceed to Checkout
     SignIn.Verify Page Loaded
+    # added

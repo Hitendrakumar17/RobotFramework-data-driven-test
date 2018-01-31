@@ -8,7 +8,7 @@ Library  HttpLibrary        # TODO: not using this at the moment, but it is inst
 
 *** Keywords ***
 Check Github Username
-    # Create the Session
+    # Create the  Session
     Create Session  my_github_session  https://api.github.com
     # Make the call (and capture the response in a variable)
     ${response} =  Get Request  my_github_session  users/robotframeworktutorial

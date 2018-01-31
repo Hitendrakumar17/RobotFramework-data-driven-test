@@ -6,7 +6,7 @@ Resource  ../Resources/Web/Amazon.robot
 Test Setup  Common.Begin Web Test
 Test Teardown  Common.End Web Test
 
-# pybot -d results/dialogs tests/dialogs.robot
+# pybot -d results/dialogs tests/dialogs.robot ---
 *** Variables ***
 ${BROWSER} =  chrome
 ${START_URL} =  https://www.amazon.com

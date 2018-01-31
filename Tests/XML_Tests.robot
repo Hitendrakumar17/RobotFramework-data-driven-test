@@ -2,7 +2,7 @@
 Documentation  These are some XML tests
 Resource  ../Resources/XML/Breakfast_Menu.robot
 
-# Many ways to run:
+# 3 ways to run:
 # pybot -d results tests/XML_Tests.robot
 # pybot -d results -i XML tests
 # pybot -d results tests

@@ -4,7 +4,7 @@ Resource  ../Resources/DB/SQL_Server.robot
 Test Setup  SQL_Server.Connect
 Test Teardown  SQL_Server.Disconnect
 
-# Many ways to run:
+# 3 ways to run:
 # pybot -d results/sql-server tests/SQL_Server_Tests.robot
 # pybot -d results/sql server -i SqlServerDB tests
 # pybot -d results tests

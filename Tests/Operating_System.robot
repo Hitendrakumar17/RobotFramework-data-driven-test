@@ -8,7 +8,7 @@ Resource  os.robot
 # pybot -d results/files -N "Diverse Suite" tests
 
 *** Variables ***
-
+# will add global variables here
 
 *** Test Cases ***
 Create Some Directories

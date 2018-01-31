@@ -38,3 +38,4 @@ Execute Manual Step With Screenshot  [Arguments]  ${step_description}
     ${passed} =  run keyword and return status  execute manual step  ${step_description}  It Failed!
     run keyword if  ${passed} == False  capture page screenshot
     run keyword if  ${passed} == False  fail  test failed
+# adding more keywords here

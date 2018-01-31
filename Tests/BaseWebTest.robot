@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation   Imports Common resources and sets global variables for Sauce labs execution.  All web tests must inherit this
 Library     OperatingSystem
-Resource  ../Resources/Web/Common.robot                 # necessary for Setup & Teardown
+Resource  ../Resources/Web/Common.robot                 # necessary for Setup & Teardown for this file
 Resource  ../Resources/Web/PO/Login.robot               # necessary for lower level keywords in test cases
 
 

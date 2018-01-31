@@ -2,7 +2,7 @@
 Library  Selenium2Library
 Documentation  Checking out the built-in library
 
-# Many ways to run:
+# 3 ways ways to run:
 # pybot -d results/built-in tests/Built_in.robot
 # pybot -d results/built-in -i BuiltIn tests
 # pybot -d results tests

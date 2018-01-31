@@ -5,7 +5,7 @@ Resource  ../Resources/DB/MySql.robot
 Suite Setup         Connect and Setup Base Test Data
 Suite Teardown      Disconnect From Database
 
-# Many ways to run:
+# 3 ways to run:
 # pybot -d results/my-sql tests/MySql_Tests.robot
 # pybot -d results/my-sql -i MySqlDB tests
 # pybot -d results tests
